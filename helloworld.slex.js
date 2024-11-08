@@ -7,9 +7,9 @@
 // @description:ja  サンプルエクステンションです。
 // @description:ja  日付をfenrir-inc.comのページに挿入します。
 // @icon            http://extensions.fenrir-inc.com/sample/icon.png
-// @include         http://*.fenrir-inc.com/*
-// @exclude         http://*.fenrir-inc.com/*/dev/*
-// @exclude         http://*.fenrir-inc.com/*/admin/*
+// @include         https://*.fenrir-inc.com/*
+// @exclude         https://*.fenrir-inc.com/*/dev/*
+// @exclude         https://*.fenrir-inc.com/*/admin/*
 // @version         0.2.1
 // @history         0.2.1 Fixed some bugs.
 // @history:ja      0.2.1 いくつかバグ修正。
