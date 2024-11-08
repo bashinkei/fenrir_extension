@@ -2,8 +2,8 @@
 // @name            Add Yahoo Realtime Link
 // @name:ja         ヤフーリアルタイムのリンク追加
 // @author          bashinkei
-// @description     Add a link to Yahoo! Realtime to fenrir search.
-// @description:ja  fenrir searchにYahoo!リアルタイムへのリンクを追加します。
+// @description     Add a link to Yahoo! Realtime to Sleipnir Start.
+// @description:ja  Sleipnir StartにYahoo!リアルタイムへのリンクを追加します。
 // @icon            http://extensions.fenrir-inc.com/sample/icon.png
 // @include         https://search.fenrir-inc.com/*
 // @version         0.0.1
