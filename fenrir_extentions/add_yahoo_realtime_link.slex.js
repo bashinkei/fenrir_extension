@@ -21,4 +21,5 @@ function getSearchStr() {
 var title = "Y!リアルタイム";
 const searchStr = getSearchStr();
 const realtimeLink = `<li><a href="https://search.yahoo.co.jp/realtime/search?p=${searchStr}">${title}</a></li>`;
-$("ul#menu_main").prepend(realtimeLink);
+$("ul#menu_main li:first").after(realtimeLink);
+$('#menu .section.service_sec').css('width', '760px');
