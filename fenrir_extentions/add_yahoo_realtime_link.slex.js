@@ -12,11 +12,13 @@
 // @require         jquery
 // ==/UserScript==
 
-var str_date = " Date: ";
-switch(SLEX_locale) {
-  case "ja":
-    str_date = " 日付: ";
-    break;
+function getSearchStr() {
+    const queryString = window.location.search;
+    const params = new URLSearchParams(queryString);
+    return params.get('q');
 }
 
-$("body").prepend('<div style="position:absolute;z-index:9999;top:0;left:0;">' + str_date + new Date() + '</div>');
+var title = "Y!リアルタイム";
+const searchStr = getSearchStr();
+const realtimeLink = `<li><a href="https://search.yahoo.co.jp/realtime/search?p=${searchStr}">${title}</a></li>`;
+$("ul#menu_main").prepend(realtimeLink);
